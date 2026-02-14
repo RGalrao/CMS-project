@@ -15,7 +15,7 @@ if($form){
     $imagem = $_GET["imagem"];
     $menu = $_GET["menu"];
       editar_banner($imagem, $menu);
-      header("Location: inicio.php");
+      header("Location: $menu.php");
   }
 }
 ?>

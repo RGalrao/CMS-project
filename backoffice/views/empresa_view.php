@@ -12,7 +12,6 @@ $banner = select_sql_unico("SELECT * FROM banners WHERE menu='$menu_atual'");
 
     <div class="row">
       <div class="col-11 col-sm-10 m-auto mt-4 border border-4 border-secondary rounded-4 p-4">
-
         <h3>Banner Página Empresa</h3>
         <table>
           <tr>

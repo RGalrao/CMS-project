@@ -6,7 +6,7 @@ function get_carousel(){
 }
 
 function get_carousel_a_mostrar(){
-  $resultado = select_sql("SELECT * FROM carousel WHERE mostrar_na_home=1 LIMIT 6");
+  $resultado = select_sql("SELECT * FROM carousel WHERE mostrar_na_home=1 LIMIT 4");
   return $resultado;
 }
 

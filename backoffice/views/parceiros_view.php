@@ -38,7 +38,7 @@ $banner = select_sql_unico("SELECT * FROM banners WHERE menu='$menu_atual'");
             <tr>
               <td><?= $p["id"] ?></td>
               <td><?= $p["nome"] ?></td>
-              <td><img src="<?= $p["logo"] ?>" alt="<?= $p["logo"] ?>"></td>
+              <td><img class="parceiros-img" src="<?= $p["logo"] ?>" alt="<?= $p["logo"] ?>"></td>
               <td><?= ($p["tamanho"] ? "Grande" : "Pequeno") ?></td>
               <td>
                 <a href="parceiro_editar.php?id=<?= $p["id"] ?>" class="btn btn-warning border border-1 border-dark"><i class="bi bi-pencil-square"></i></a>
