@@ -56,17 +56,6 @@ This project was built to:
 
 ---
 
-## 📈 Future Improvements
-
-- Admin dashboard  
-- Availability setup system  
-- Booking management system  
-- Payment integration  
-- Email confirmation system  
-- Improved UI/UX animations  
-
----
-
 ## 👨‍💻 Author
 
 **Rodrigo Galrão**  
